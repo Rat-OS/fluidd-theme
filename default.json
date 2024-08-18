@@ -1,10 +1,11 @@
 {
     "meta": {
         "app": "Fluidd",
-        "version": "1.30.7",
+        "version": "1.31.0-4",
         "type": "settings-backup"
     },
     "data": {
+        "charts": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -26,6 +27,11 @@
                         },
                         {
                             "id": "toolhead-card",
+                            "enabled": true,
+                            "collapsed": false
+                        },
+                        {
+                            "id": "extruder-card",
                             "enabled": true,
                             "collapsed": false
                         },
@@ -88,14 +94,8 @@
                             "id": "bed-mesh-card",
                             "enabled": false,
                             "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
-                            "enabled": true,
-                            "collapsed": false
                         }
-                    ],
-                    "container2": []
+                    ]
                 },
                 "diagnostics": {
                     "container1": [
@@ -170,297 +170,12 @@
                         }
                     ]
                 },
-                "dashboard-xl-_TRUSTED_USER_": {
-                    "container1": [
-                        {
-                            "id": "printer-status-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "spoolman-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "camera-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "toolhead-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "macros-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "runout-sensors-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "printer-limits-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "retract-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container2": [
-                        {
-                            "id": "jobs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "job-queue-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "gcode-preview-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "bed-mesh-card",
-                            "enabled": false,
-                            "collapsed": false
-                        }
-                    ],
-                    "container3": [
-                        {
-                            "id": "temperature-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "console-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container4": [
-                        {
-                            "id": "sensors-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "outputs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ]
-                },
-                "dashboard-lg-_TRUSTED_USER_": {
-                    "container1": [
-                        {
-                            "id": "printer-status-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "spoolman-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "camera-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "toolhead-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "macros-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "outputs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "runout-sensors-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "printer-limits-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "retract-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container2": [
-                        {
-                            "id": "sensors-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "jobs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "job-queue-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "gcode-preview-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "bed-mesh-card",
-                            "enabled": false,
-                            "collapsed": false
-                        }
-                    ],
-                    "container3": [
-                        {
-                            "id": "temperature-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container4": [
-                        {
-                            "id": "console-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ]
-                },
-                "dashboard-md-_TRUSTED_USER_": {
-                    "container1": [
-                        {
-                            "id": "printer-status-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "spoolman-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "camera-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "toolhead-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "macros-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "outputs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "runout-sensors-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "retract-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container2": [
-                        {
-                            "id": "temperature-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "sensors-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "console-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "jobs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "job-queue-card",
-                            "enabled": false,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "gcode-preview-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ],
-                    "container3": [
-                        {
-                            "id": "bed-mesh-card",
-                            "enabled": false,
-                            "collapsed": false
-                        }
-                    ],
-                    "container4": [
-                        {
-                            "id": "printer-limits-card",
-                            "enabled": true,
-                            "collapsed": false
-                        }
-                    ]
-                },
                 "dashboard-4-_TRUSTED_USER_": {
                     "container1": [
                         {
                             "id": "printer-status-card",
                             "enabled": true,
-                            "collapsed": true
+                            "collapsed": false
                         },
                         {
                             "id": "toolhead-card",
@@ -506,7 +221,7 @@
                         },
                         {
                             "id": "retract-card",
-                            "enabled": false,
+                            "enabled": true,
                             "collapsed": false
                         }
                     ],
@@ -654,7 +369,7 @@
                         {
                             "id": "printer-status-card",
                             "enabled": true,
-                            "collapsed": true
+                            "collapsed": false
                         },
                         {
                             "id": "toolhead-card",
@@ -696,7 +411,7 @@
                         {
                             "id": "temperature-card",
                             "enabled": true,
-                            "collapsed": false
+                            "collapsed": true
                         },
                         {
                             "id": "sensors-card",
@@ -745,10 +460,15 @@
                         {
                             "id": "printer-status-card",
                             "enabled": true,
-                            "collapsed": true
+                            "collapsed": false
                         },
                         {
                             "id": "toolhead-card",
+                            "enabled": true,
+                            "collapsed": false
+                        },
+                        {
+                            "id": "extruder-card",
                             "enabled": true,
                             "collapsed": false
                         },
@@ -759,16 +479,16 @@
                         },
                         {
                             "id": "retract-card",
+                            "enabled": false,
+                            "collapsed": false
+                        },
+                        {
+                            "id": "temperature-card",
                             "enabled": true,
                             "collapsed": false
                         },
                         {
-                            "id": "outputs-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "runout-sensors-card",
+                            "id": "sensors-card",
                             "enabled": true,
                             "collapsed": false
                         },
@@ -783,12 +503,12 @@
                             "collapsed": false
                         },
                         {
-                            "id": "temperature-card",
+                            "id": "outputs-card",
                             "enabled": true,
                             "collapsed": false
                         },
                         {
-                            "id": "sensors-card",
+                            "id": "runout-sensors-card",
                             "enabled": true,
                             "collapsed": false
                         },
@@ -821,14 +541,8 @@
                             "id": "bed-mesh-card",
                             "enabled": true,
                             "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
-                            "enabled": true,
-                            "collapsed": false
                         }
-                    ],
-                    "container2": []
+                    ]
                 },
                 "dashboard-3-_TRUSTED_USER_": {
                     "container1": [
@@ -839,6 +553,11 @@
                         },
                         {
                             "id": "toolhead-card",
+                            "enabled": true,
+                            "collapsed": false
+                        },
+                        {
+                            "id": "extruder-card",
                             "enabled": true,
                             "collapsed": false
                         },
@@ -859,11 +578,6 @@
                         },
                         {
                             "id": "runout-sensors-card",
-                            "enabled": true,
-                            "collapsed": false
-                        },
-                        {
-                            "id": "extruder-card",
                             "enabled": true,
                             "collapsed": false
                         }
@@ -914,7 +628,7 @@
                         {
                             "id": "camera-card",
                             "enabled": true,
-                            "collapsed": false
+                            "collapsed": true
                         },
                         {
                             "id": "macros-card",
@@ -979,9 +693,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 16,
@@ -990,29 +704,31 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": true,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "47e1e59d-2cc2-4fb8-8a86-ab55dfac1108",
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 4,
                     "name": "generate_shaper_graphs"
                 },
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": true,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "47e1e59d-2cc2-4fb8-8a86-ab55dfac1108",
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 3,
                     "name": "measure_corexy_belt_tension"
                 },
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1024,7 +740,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1036,7 +752,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1048,7 +764,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1060,7 +776,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1072,7 +788,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1085,21 +801,21 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 10,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 5,
                     "name": "beacon_ratos_calibration"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 11,
@@ -1109,9 +825,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 12,
@@ -1120,7 +836,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1149,7 +865,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
                     "order": 1,
                     "name": "chamber_filter_off"
                 },
@@ -1161,7 +877,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
                     "order": 0,
                     "name": "chamber_filter_on"
                 },
@@ -1173,7 +889,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
                     "order": 3,
                     "name": "chamber_heater_off"
                 },
@@ -1185,7 +901,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
                     "order": 2,
                     "name": "chamber_heater_on"
                 },
@@ -1217,9 +933,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 18,
@@ -1301,36 +1017,36 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 25,
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "order": 1,
                     "name": "idex_copy"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 26,
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "order": 2,
                     "name": "idex_mirror"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 27,
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "order": 3,
                     "name": "idex_park"
                 },
                 {
@@ -1341,7 +1057,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
+                    "categoryId": "0",
                     "order": 28,
                     "name": "idex_set_center_kinematic_position"
                 },
@@ -1349,21 +1065,21 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 29,
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "order": 0,
                     "name": "idex_single"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 30,
@@ -1377,8 +1093,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 31,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 7,
                     "name": "initialize_pa_tuning"
                 },
                 {
@@ -1389,8 +1105,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 32,
+                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
+                    "order": 5,
                     "name": "join_spools"
                 },
                 {
@@ -1450,16 +1166,16 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "0",
-                    "order": 37,
+                    "order": 6,
                     "name": "m600"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 38,
@@ -1469,9 +1185,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 39,
@@ -1480,7 +1196,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1505,42 +1221,42 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 42,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 1,
                     "name": "pid_calibrate_bed"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 43,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 2,
                     "name": "pid_calibrate_chamber_heater"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 44,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 0,
                     "name": "pid_calibrate_hotend"
                 },
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1553,9 +1269,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 46,
@@ -1565,9 +1281,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 47,
@@ -1577,9 +1293,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 48,
@@ -1601,9 +1317,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 50,
@@ -1617,7 +1333,7 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 51,
                     "name": "remap_toolheads"
                 },
@@ -1625,9 +1341,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 52,
@@ -1637,9 +1353,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 53,
@@ -1661,9 +1377,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 55,
@@ -1677,17 +1393,17 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 56,
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "order": 6,
                     "name": "save_z_offset"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 57,
@@ -1697,11 +1413,11 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
                     "order": 58,
                     "name": "set_center_kinematic_position"
                 },
@@ -1709,9 +1425,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 59,
@@ -1721,9 +1437,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 60,
@@ -1733,9 +1449,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 61,
@@ -1745,9 +1461,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 62,
@@ -1756,7 +1472,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1769,9 +1485,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 64,
@@ -1781,9 +1497,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 65,
@@ -1793,9 +1509,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 66,
@@ -1805,9 +1521,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 67,
@@ -1817,9 +1533,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 68,
@@ -1833,17 +1549,17 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 69,
+                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "order": 4,
                     "name": "toolshift_config"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 70,
@@ -1852,7 +1568,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -1869,14 +1585,15 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
+                    "categoryId": "0",
+                    "order": 5,
                     "name": "idex_config"
                 },
                 {
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
@@ -1888,25 +1605,25 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
-                    "color": "",
-                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
-                    "order": 3,
-                    "name": "eject_filament"
-                },
-                {
-                    "alias": "",
-                    "visible": true,
-                    "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
+                    "hideWhilePrinting": true,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
                     "order": 4,
                     "name": "move_filament"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
+                    "order": 3,
+                    "name": "eject_filament"
                 }
             ],
             "categories": [
@@ -1914,29 +1631,44 @@
                     "id": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
                     "name": "Filament",
                     "order": 0,
-                    "color": "#ffae00",
+                    "color": "#0ea5e9",
                     "visible": true
                 },
                 {
                     "id": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
                     "name": "Debug",
-                    "order": 1,
-                    "color": "#ff9100",
-                    "visible": true
-                },
-                {
-                    "id": "47e1e59d-2cc2-4fb8-8a86-ab55dfac1108",
-                    "name": "Scripts",
-                    "order": 2,
-                    "color": "#ff0400",
+                    "order": 3,
+                    "color": "#ef4444",
                     "visible": true,
                     "hideWhileStandby": false
+                },
+                {
+                    "id": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
+                    "name": "Chamber",
+                    "order": 1,
+                    "color": "#84cc16",
+                    "visible": false
+                },
+                {
+                    "id": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "name": "Calibration",
+                    "order": 2,
+                    "color": "#0284c7",
+                    "visible": true,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false
+                },
+                {
+                    "id": "31023836-6617-40b9-b872-2ecf9a587681",
+                    "name": "IDEX",
+                    "order": 4,
+                    "color": "#84cc16",
+                    "visible": false
                 }
             ],
             "expanded": [
-                0,
                 2,
-                1
+                0
             ]
         },
         "uiSettings": {
@@ -1950,16 +1682,8 @@
                 ],
                 "toolheadCircleXYHomingEnabled": true,
                 "flipConsoleLayout": true,
-                "zAdjustDistance": 0.05,
-                "zAdjustDistances": [
-                    0.005,
-                    0.01,
-                    0.025,
-                    0.05
-                ],
-                "printerLimitsInputType": "slider",
-                "thumbnailSize": 32,
-                "instanceName": "V-Minion"
+                "instanceName": "RatOS",
+                "colorPickerValueRange": "absolute"
             },
             "theme": {
                 "isDark": true,
@@ -1968,7 +1692,7 @@
                     "dark": "#232323",
                     "light": "#ffffff"
                 },
-                "color": "#76FB00",
+                "color": "#99f321",
                 "backgroundLogo": false
             },
             "gcodePreview": {
@@ -1994,16 +1718,44 @@
                     "config": false
                 }
             },
-            "toolhead": {
-                "zAdjustDistance": 0.01,
-                "extrudeLength": 50,
-                "extrudeSpeed": 10
-            },
             "extruder": {
                 "extrudeLength": 50,
                 "extrudeSpeed": 10,
-                "defaultExtrudeLength": 0,
-                "defaultExtrudeSpeed": 0
+                "defaultExtrudeLength": 10,
+                "defaultExtrudeSpeed": 5
+            },
+            "dashboard": {
+                "tempPresets": [],
+                "filamentPresets": [
+                    {
+                        "id": "b5bf6982-1d5a-4a11-a239-969c8076ca6b",
+                        "order": 0,
+                        "name": "PLA",
+                        "temp": 215,
+                        "visible": true
+                    },
+                    {
+                        "id": "efc4b7cf-32d1-472c-998b-463541fd7235",
+                        "order": 1,
+                        "name": "PETG",
+                        "temp": 245,
+                        "visible": true
+                    },
+                    {
+                        "id": "b83a1a1f-9d93-47f6-a38b-25aed3945288",
+                        "order": 2,
+                        "name": "ABS",
+                        "temp": 260,
+                        "visible": true
+                    },
+                    {
+                        "id": "0f9b6e1d-cd3b-491a-a9ef-804f61ec8c04",
+                        "order": 3,
+                        "name": "ASA",
+                        "temp": 265,
+                        "visible": true
+                    }
+                ]
             }
         }
     }
