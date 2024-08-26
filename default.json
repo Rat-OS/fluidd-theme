@@ -5,6 +5,7 @@
         "type": "settings-backup"
     },
     "data": {
+        "charts": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -1161,7 +1162,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
-                    "order": 6,
+                    "order": 3,
                     "name": "m600"
                 },
                 {
@@ -1663,6 +1664,18 @@
                     "categoryId": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
                     "order": 2,
                     "name": "echo_t_vars"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": true,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
+                    "order": 2,
+                    "name": "cold_pull"
                 }
             ],
             "categories": [
@@ -1713,10 +1726,10 @@
                 }
             ],
             "expanded": [
-                0,
                 3,
-                4,
-                2
+                2,
+                0,
+                1
             ]
         },
         "uiSettings": {
@@ -1834,6 +1847,7 @@
                     }
                 ]
             }
-        }
+        },
+        "webcams": {}
     }
 }
