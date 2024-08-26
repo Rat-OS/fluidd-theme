@@ -6,6 +6,7 @@
     },
     "data": {
         "charts": {},
+        "console": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -1703,7 +1704,7 @@
                     "name": "Beacon",
                     "order": 2,
                     "color": "#ff9500",
-                    "visible": true
+                    "visible": false
                 },
                 {
                     "id": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
@@ -1835,7 +1836,6 @@
                     }
                 ]
             }
-        },
-        "webcams": {}
+        }
     }
 }
