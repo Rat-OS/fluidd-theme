@@ -734,7 +734,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 3,
+                    "order": 4,
                     "name": "beacon_calibrate_nozzle_temp_offset"
                 },
                 {
@@ -746,7 +746,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 4,
+                    "order": 5,
                     "name": "beacon_create_scan_compensation_mesh"
                 },
                 {
@@ -758,7 +758,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 1,
+                    "order": 2,
                     "name": "beacon_initial_calibration"
                 },
                 {
@@ -770,7 +770,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 5,
+                    "order": 6,
                     "name": "beacon_measure_gantry_twist"
                 },
                 {
@@ -782,7 +782,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 6,
+                    "order": 7,
                     "name": "beacon_poke_test"
                 },
                 {
@@ -794,7 +794,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 2,
+                    "order": 3,
                     "name": "beacon_final_calibration"
                 },
                 {
@@ -806,7 +806,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 7,
+                    "order": 8,
                     "name": "beacon_ratos_calibration"
                 },
                 {
@@ -1388,8 +1388,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
-                    "order": 6,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 0,
                     "name": "save_z_offset"
                 },
                 {
@@ -1628,7 +1628,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
-                    "order": 0,
+                    "order": 1,
                     "name": "beacon_ratos_calibrate"
                 },
                 {
@@ -1703,7 +1703,7 @@
                     "name": "Beacon",
                     "order": 2,
                     "color": "#ff9500",
-                    "visible": false
+                    "visible": true
                 },
                 {
                     "id": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
@@ -1716,8 +1716,8 @@
             "expanded": [
                 0,
                 3,
-                2,
-                4
+                4,
+                5
             ]
         },
         "uiSettings": {
@@ -1727,14 +1727,16 @@
                 "minPanelWidth": 450,
                 "toolheadControlStyle": "circle",
                 "outputsCollasped": [
-                    0
+                    0,
+                    1,
+                    3
                 ],
                 "toolheadCircleXYHomingEnabled": true,
                 "flipConsoleLayout": true,
                 "instanceName": "RatOS",
                 "colorPickerValueRange": "absolute",
                 "showFilamentProfiles": true,
-                "heatBedFromFilamentProfile": true
+                "heatBedFromFilamentProfile": false
             },
             "theme": {
                 "isDark": true,
@@ -1770,8 +1772,8 @@
                 }
             },
             "extruder": {
-                "extrudeLength": 25,
-                "extrudeSpeed": 5,
+                "extrudeLength": 50,
+                "extrudeSpeed": 10,
                 "defaultExtrudeLength": 10,
                 "defaultExtrudeSpeed": 5
             },
@@ -1833,6 +1835,7 @@
                     }
                 ]
             }
-        }
+        },
+        "webcams": {}
     }
 }
