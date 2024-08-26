@@ -1,11 +1,12 @@
 {
     "meta": {
         "app": "Fluidd",
-        "version": "1.31.0-4",
+        "version": "1.31.0-31",
         "type": "settings-backup"
     },
     "data": {
         "charts": {},
+        "console": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -411,7 +412,7 @@
                         {
                             "id": "temperature-card",
                             "enabled": true,
-                            "collapsed": true
+                            "collapsed": false
                         },
                         {
                             "id": "sensors-card",
@@ -644,7 +645,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -656,7 +657,7 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
@@ -733,8 +734,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 5,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 3,
                     "name": "beacon_calibrate_nozzle_temp_offset"
                 },
                 {
@@ -745,8 +746,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 6,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 4,
                     "name": "beacon_create_scan_compensation_mesh"
                 },
                 {
@@ -757,8 +758,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 7,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 1,
                     "name": "beacon_initial_calibration"
                 },
                 {
@@ -769,8 +770,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 8,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 5,
                     "name": "beacon_measure_gantry_twist"
                 },
                 {
@@ -781,8 +782,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 9,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 6,
                     "name": "beacon_poke_test"
                 },
                 {
@@ -793,20 +794,20 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 4,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 2,
                     "name": "beacon_final_calibration"
                 },
                 {
                     "alias": "",
-                    "visible": true,
+                    "visible": false,
                     "disabledWhilePrinting": false,
                     "hideWhilePrinting": true,
                     "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
-                    "order": 5,
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 7,
                     "name": "beacon_ratos_calibration"
                 },
                 {
@@ -866,7 +867,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
-                    "order": 1,
+                    "order": 3,
                     "name": "chamber_filter_off"
                 },
                 {
@@ -878,7 +879,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
-                    "order": 0,
+                    "order": 2,
                     "name": "chamber_filter_on"
                 },
                 {
@@ -890,7 +891,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
-                    "order": 3,
+                    "order": 1,
                     "name": "chamber_heater_off"
                 },
                 {
@@ -902,7 +903,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "2225ec4d-4269-47cf-8e1a-ea322d4aac27",
-                    "order": 2,
+                    "order": 0,
                     "name": "chamber_heater_on"
                 },
                 {
@@ -1021,7 +1022,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 1,
                     "name": "idex_copy"
                 },
@@ -1033,7 +1033,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 2,
                     "name": "idex_mirror"
                 },
@@ -1045,7 +1044,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 3,
                     "name": "idex_park"
                 },
@@ -1069,7 +1067,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 0,
                     "name": "idex_single"
                 },
@@ -1333,7 +1330,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 51,
                     "name": "remap_toolheads"
                 },
@@ -1414,7 +1410,7 @@
                     "visible": true,
                     "disabledWhilePrinting": false,
                     "hideWhilePrinting": true,
-                    "hideWhilePaused": false,
+                    "hideWhilePaused": true,
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
@@ -1549,7 +1545,6 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "31023836-6617-40b9-b872-2ecf9a587681",
                     "order": 4,
                     "name": "toolshift_config"
                 },
@@ -1624,6 +1619,18 @@
                     "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
                     "order": 3,
                     "name": "eject_filament"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "order": 0,
+                    "name": "beacon_ratos_calibrate"
                 }
             ],
             "categories": [
@@ -1637,7 +1644,7 @@
                 {
                     "id": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
                     "name": "Debug",
-                    "order": 3,
+                    "order": 4,
                     "color": "#ef4444",
                     "visible": true,
                     "hideWhileStandby": false
@@ -1652,23 +1659,23 @@
                 {
                     "id": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
                     "name": "Calibration",
-                    "order": 2,
+                    "order": 3,
                     "color": "#0284c7",
                     "visible": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false
                 },
                 {
-                    "id": "31023836-6617-40b9-b872-2ecf9a587681",
-                    "name": "IDEX",
-                    "order": 4,
-                    "color": "#84cc16",
+                    "id": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
+                    "name": "Beacon",
+                    "order": 2,
+                    "color": "",
                     "visible": false
                 }
             ],
             "expanded": [
-                2,
-                0
+                0,
+                2
             ]
         },
         "uiSettings": {
@@ -1683,7 +1690,9 @@
                 "toolheadCircleXYHomingEnabled": true,
                 "flipConsoleLayout": true,
                 "instanceName": "RatOS",
-                "colorPickerValueRange": "absolute"
+                "colorPickerValueRange": "absolute",
+                "showFilamentProfiles": true,
+                "heatBedFromFilamentProfile": false
             },
             "theme": {
                 "isDark": true,
@@ -1719,44 +1728,70 @@
                 }
             },
             "extruder": {
-                "extrudeLength": 50,
-                "extrudeSpeed": 10,
+                "extrudeLength": 25,
+                "extrudeSpeed": 5,
                 "defaultExtrudeLength": 10,
                 "defaultExtrudeSpeed": 5
             },
             "dashboard": {
-                "tempPresets": [],
-                "filamentPresets": [
+                "tempPresets": [
                     {
-                        "id": "b5bf6982-1d5a-4a11-a239-969c8076ca6b",
+                        "id": "464a7ac6-8d64-442c-b1be-44735f299f24",
                         "order": 0,
                         "name": "PLA",
-                        "temp": 215,
+                        "values": {
+                            "extruder": {
+                                "value": 210,
+                                "type": "heater",
+                                "active": true
+                            },
+                            "heater_bed": {
+                                "value": 60,
+                                "type": "heater",
+                                "active": true
+                            }
+                        },
                         "visible": true
                     },
                     {
-                        "id": "efc4b7cf-32d1-472c-998b-463541fd7235",
+                        "id": "a346769f-b476-4ead-9aa2-d5f628371421",
                         "order": 1,
                         "name": "PETG",
-                        "temp": 245,
+                        "values": {
+                            "extruder": {
+                                "value": 245,
+                                "type": "heater",
+                                "active": true
+                            },
+                            "heater_bed": {
+                                "value": 80,
+                                "type": "heater",
+                                "active": true
+                            }
+                        },
                         "visible": true
                     },
                     {
-                        "id": "b83a1a1f-9d93-47f6-a38b-25aed3945288",
+                        "id": "1a9504d2-bccb-48d7-8e11-43cead4c0df2",
                         "order": 2,
                         "name": "ABS",
-                        "temp": 260,
-                        "visible": true
-                    },
-                    {
-                        "id": "0f9b6e1d-cd3b-491a-a9ef-804f61ec8c04",
-                        "order": 3,
-                        "name": "ASA",
-                        "temp": 265,
+                        "values": {
+                            "extruder": {
+                                "value": 250,
+                                "type": "heater",
+                                "active": true
+                            },
+                            "heater_bed": {
+                                "value": 110,
+                                "type": "heater",
+                                "active": true
+                            }
+                        },
                         "visible": true
                     }
                 ]
             }
-        }
+        },
+        "webcams": {}
     }
 }
