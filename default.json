@@ -5,8 +5,6 @@
         "type": "settings-backup"
     },
     "data": {
-        "charts": {},
-        "console": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -1718,7 +1716,7 @@
                 0,
                 3,
                 4,
-                5
+                2
             ]
         },
         "uiSettings": {
