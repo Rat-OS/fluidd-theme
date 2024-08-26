@@ -1,12 +1,11 @@
 {
     "meta": {
         "app": "Fluidd",
-        "version": "1.31.0-31",
+        "version": "1.31.0-33",
         "type": "settings-backup"
     },
     "data": {
         "charts": {},
-        "console": {},
         "layout": {
             "layouts": {
                 "dashboard": {
@@ -837,10 +836,10 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": true,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 13,
@@ -850,9 +849,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 14,
@@ -909,13 +908,13 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": false,
+                    "disabledWhilePrinting": true,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 15,
+                    "categoryId": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
+                    "order": 0,
                     "name": "change_hostname"
                 },
                 {
@@ -926,8 +925,8 @@
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
-                    "order": 17,
+                    "categoryId": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
+                    "order": 1,
                     "name": "echo_ratos_vars"
                 },
                 {
@@ -946,9 +945,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 19,
@@ -958,9 +957,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 20,
@@ -970,9 +969,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 21,
@@ -982,9 +981,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 22,
@@ -994,9 +993,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 23,
@@ -1006,9 +1005,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 24,
@@ -1050,10 +1049,10 @@
                 {
                     "alias": "",
                     "visible": true,
-                    "disabledWhilePrinting": true,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 28,
@@ -1110,9 +1109,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 33,
@@ -1146,9 +1145,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 36,
@@ -1156,13 +1155,13 @@
                 },
                 {
                     "alias": "",
-                    "visible": true,
+                    "visible": false,
                     "disabledWhilePrinting": false,
                     "hideWhilePrinting": false,
                     "hideWhilePaused": false,
                     "hideWhileStandby": false,
                     "color": "",
-                    "categoryId": "0",
+                    "categoryId": "5e2774c2-71b8-4f1f-9cd4-26dd444e6517",
                     "order": 6,
                     "name": "m600"
                 },
@@ -1206,9 +1205,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 41,
@@ -1302,9 +1301,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 49,
@@ -1361,9 +1360,9 @@
                     "alias": "",
                     "visible": true,
                     "disabledWhilePrinting": false,
-                    "hideWhilePrinting": false,
-                    "hideWhilePaused": false,
-                    "hideWhileStandby": false,
+                    "hideWhilePrinting": true,
+                    "hideWhilePaused": true,
+                    "hideWhileStandby": true,
                     "color": "",
                     "categoryId": "0",
                     "order": 54,
@@ -1414,7 +1413,7 @@
                     "hideWhileStandby": false,
                     "color": "",
                     "categoryId": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
-                    "order": 58,
+                    "order": 4,
                     "name": "set_center_kinematic_position"
                 },
                 {
@@ -1631,6 +1630,40 @@
                     "categoryId": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
                     "order": 0,
                     "name": "beacon_ratos_calibrate"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "0",
+                    "name": "light_off"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": true,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "630bbe62-f733-4a23-8bed-cbf894f5a58b",
+                    "name": "screws_tilt_calculate"
+                },
+                {
+                    "alias": "",
+                    "visible": true,
+                    "disabledWhilePrinting": false,
+                    "hideWhilePrinting": false,
+                    "hideWhilePaused": false,
+                    "hideWhileStandby": false,
+                    "color": "",
+                    "categoryId": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
+                    "order": 2,
+                    "name": "echo_t_vars"
                 }
             ],
             "categories": [
@@ -1644,7 +1677,7 @@
                 {
                     "id": "f1ed8ce8-4b2f-454d-b079-c92555b62e98",
                     "name": "Debug",
-                    "order": 4,
+                    "order": 5,
                     "color": "#ef4444",
                     "visible": true,
                     "hideWhileStandby": false
@@ -1669,13 +1702,22 @@
                     "id": "e77c5980-ba69-4d53-8717-02a8f1180cdc",
                     "name": "Beacon",
                     "order": 2,
-                    "color": "",
+                    "color": "#ff9500",
                     "visible": false
+                },
+                {
+                    "id": "26b2c350-1dc9-45e8-9bcc-a24ce5c54d6c",
+                    "name": "RatOS",
+                    "order": 4,
+                    "color": "#78f321",
+                    "visible": true
                 }
             ],
             "expanded": [
                 0,
-                2
+                3,
+                2,
+                4
             ]
         },
         "uiSettings": {
@@ -1692,7 +1734,7 @@
                 "instanceName": "RatOS",
                 "colorPickerValueRange": "absolute",
                 "showFilamentProfiles": true,
-                "heatBedFromFilamentProfile": false
+                "heatBedFromFilamentProfile": true
             },
             "theme": {
                 "isDark": true,
@@ -1791,7 +1833,6 @@
                     }
                 ]
             }
-        },
-        "webcams": {}
+        }
     }
 }
